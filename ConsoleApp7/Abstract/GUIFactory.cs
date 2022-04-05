@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7.Abstract
 {
-    interface GUIFactory
+    public interface GUIFactory
     {
-        createButton();
+        IButton createButton();
+
     }
 }

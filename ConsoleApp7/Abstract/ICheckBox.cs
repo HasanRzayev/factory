@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7.Abstract
 {
-    interface ICheckBox
+    public interface ICheckBox
     {
         void Select();
     }

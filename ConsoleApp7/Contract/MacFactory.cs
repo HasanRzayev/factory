@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7.Contract
 {
-    class WinButton : IButton
+    public class MacFactory : GUIFactory
     {
-        void IButton.Click()
+        
+        public IButton createButton()
         {
-            Console.WriteLine("Windows Button");
+            return new MacButton();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7.Abstract
 {
-    interface IButton
+    public interface IButton
     {
         void Click();
     }

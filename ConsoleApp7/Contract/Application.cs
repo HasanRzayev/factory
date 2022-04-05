@@ -11,9 +11,20 @@ namespace ConsoleApp7.Contract
     {
         public GUIFactory factory { get; set; }
         public IButton button { get; set; }
-        void Application (GUIFactory factory)
+        public Application (GUIFactory factory,IButton button)
         {
-            factory=new 
+            this.factory = factory; 
+            this.button = button;
+        }
+        public void CreateUI()
+        {
+            factory.createButton();
+            button.Click();
+            Console.WriteLine("Ui yaratdiniz");
+        }
+        public void paint()
+        {
+            Console.WriteLine("Reng tetbiq olundu");
         }
 
     }

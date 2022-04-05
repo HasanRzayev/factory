@@ -11,7 +11,7 @@ namespace ConsoleApp7.Contract
     {
         public void Click()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Mac Button");
         }
     }
 }

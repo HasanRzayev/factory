@@ -11,7 +11,7 @@ namespace ConsoleApp7.Contract
     {
         public void Select()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Mac Checkbox");
         }
     }
 }
